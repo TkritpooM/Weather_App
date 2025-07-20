@@ -25,9 +25,10 @@ Install dependencies and start the development server:
 npm install
 ng serve
 Open your browser at: http://localhost:4200
+```
 
 ## 📸 Screenshots
 
-| Home | Loading | Success | Error |
+| Home | Error | Success | Success |
 |------|---------|---------|-------|
-| ![Home](screenshot/1.png) | ![Loading](screenshot/2.png) | ![Success](screenshot/3.png) | ![Error](screenshot/4.png) |
+| ![Home](screenshot/1.png) | ![Error](screenshot/2.png) | ![Success](screenshot/3.png) | ![Success](screenshot/4.png) |
