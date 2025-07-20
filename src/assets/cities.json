@@ -1,0 +1,23 @@
+[
+  { "city": "Bangkok", "country": "Thailand" },
+  { "city": "Chiang Mai", "country": "Thailand" },
+  { "city": "Phuket", "country": "Thailand" },
+  { "city": "Tokyo", "country": "Japan" },
+  { "city": "Osaka", "country": "Japan" },
+  { "city": "Kyoto", "country": "Japan" },
+  { "city": "Seoul", "country": "South Korea" },
+  { "city": "New York", "country": "USA" },
+  { "city": "Los Angeles", "country": "USA" },
+  { "city": "San Francisco", "country": "USA" },
+  { "city": "London", "country": "United Kingdom" },
+  { "city": "Paris", "country": "France" },
+  { "city": "Berlin", "country": "Germany" },
+  { "city": "Sydney", "country": "Australia" },
+  { "city": "Melbourne", "country": "Australia" },
+  { "city": "Toronto", "country": "Canada" },
+  { "city": "Vancouver", "country": "Canada" },
+  { "city": "Beijing", "country": "China" },
+  { "city": "Shanghai", "country": "China" },
+  { "city": "Mumbai", "country": "India" },
+  { "city": "Delhi", "country": "India" }
+]

@@ -1,0 +1,39 @@
+<section class="background-animation">
+</section>
+
+<div class="wave">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+
+<div class="weather-container">
+  <h1>Weather App</h1>
+
+  <div class="input-group">
+    <input
+      type="text"
+      placeholder="Enter city name"
+      [(ngModel)]="city"
+      (keyup.enter)="getWeather()"
+      aria-label="City name"
+      autocomplete="off"
+      [disabled]="loading"
+    />
+    <button (click)="getWeather()" [disabled]="loading">
+      Search
+    </button>
+  </div>
+
+  <div *ngIf="error" class="error-msg">{{ error }}</div>
+
+  <div *ngIf="loading" class="loading-spinner" aria-label="Loading..."></div>
+
+  <div *ngIf="weatherData && !loading" class="weather-result" [@fadeIn]>
+    <p><strong>Temperature:</strong> {{ weatherData.temperature }} °C</p>
+    <p><strong>Wind Speed:</strong> {{ weatherData.windspeed }} m/s</p>
+    <p><strong>Wind Direction:</strong> {{ weatherData.winddirection }}°</p>
+    <p><strong>Time:</strong> {{ weatherData.time }}</p>
+  </div>
+</div>
